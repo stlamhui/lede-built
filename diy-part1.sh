@@ -15,3 +15,6 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
